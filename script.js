@@ -78,71 +78,75 @@ else {
 // Question#02(Part-1)
 
 
-// let userAge = prompt("Please enter your age to see your vote status : ");
-// if (userAge >= 18)
-// {
-//     console.log("User is old enough to cast a vote.")
-// }
-// else {
-//     console.log("User is not old enough to cast a vote.")
-// }
+let userAge = prompt("Please enter your age to see your vote status : ");
+if (userAge >= 18)
+{
+    console.log("User is old enough to cast a vote.")
+}
+else {
+    console.log("User is not old enough to cast a vote.")
+}
     
 
 // Question#02(Part-2)
 
 
-// let studentGrade = prompt("Please Enter Your Grade : ")
-// if (studentGrade == "A" || studentGrade == "a")
-// {
-//     console.log("Excellent!");
-// }
-//     else if (studentGrade == "B" || studentGrade == "b")
-// {
-//     console.log("Great!");
-// }
-// else if (studentGrade == "C" || studentGrade == "c")
-// {
-//     console.log("Good!");
-// }
-// else if (studentGrade == "D" || studentGrade == "d")
-// {
-//     console.log("Not Bad");
-// }
-//  else if (studentGrade == "F" || studentGrade == "f")
-// {
-//     console.log("Poor Fail!!");
-// }
-// else {
-//     console.log("Invalid Input!")
-// }
+let studentGrade = prompt("Please Enter Your Grade : ")
+if (studentGrade == "A" || studentGrade == "a")
+{
+    console.log("Excellent!");
+}
+    else if (studentGrade == "B" || studentGrade == "b")
+{
+    console.log("Great!");
+}
+else if (studentGrade == "C" || studentGrade == "c")
+{
+    console.log("Good!");
+}
+else if (studentGrade == "D" || studentGrade == "d")
+{
+    console.log("Not Bad");
+}
+ else if (studentGrade == "F" || studentGrade == "f")
+{
+    console.log("Poor Fail!!");
+}
+else {
+    console.log("Invalid Input!")
+}
 
 
 
 
 // Question#02(Part-3)
-// let age = prompt("Enter Your Age : ");
-// if (age > 0 && age <= 2) {
-//     console.log("Baby");
-// }
-// else if (age >= 3 && age <= 5) {
-//     console.log("toddler");
-// }
-// else if (age >= 6 && age <= 12) {
-//     console.log("child");
-// }
-// else if (age >= 13 && age <= 18) {
-//     console.log("Teenager");
-// }
-// else if (age >=19) {
-//     console.log("Adult");
-// }
-// else {
-//     console.log("Invalid Input!")
-// }
+
+
+let age = prompt("Enter Your Age : ");
+if (age > 0 && age <= 2) {
+    console.log("Baby");
+}
+else if (age >= 3 && age <= 5) {
+    console.log("toddler");
+}
+else if (age >= 6 && age <= 12) {
+    console.log("child");
+}
+else if (age >= 13 && age <= 18) {
+    console.log("Teenager");
+}
+else if (age >=19) {
+    console.log("Adult");
+}
+else {
+    console.log("Invalid Input!")
+}
 
 
 
 // Question#02(Part-4)
+
+
 let number = prompt("Please Enter a Number : ")
 if (number ==0)
 {
